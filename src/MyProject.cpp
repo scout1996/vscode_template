@@ -21,6 +21,7 @@ void ORBextractor(OutputArray& _descriptors) {
     // 验证 descriptors 和 _descriptors 是否被更改
     std::cout << descriptors.row(0) << std::endl;
     std::cout << _descriptors.getMat().row(0) << std::endl;
+    std::cout << "aaaaaa" << std::endl;
 }
 
 int main() {
